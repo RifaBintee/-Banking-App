@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeMenuController">
+   <children>
+      <Label layoutX="170.0" layoutY="14.0" prefHeight="48.0" prefWidth="243.0" text="         Welcome to employee page">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <CheckBox layoutX="81.0" layoutY="101.0" mnemonicParsing="false" onAction="#CreatAccount" prefHeight="18.0" prefWidth="162.0" text="Create Account" />
+      <CheckBox layoutX="81.0" layoutY="144.0" mnemonicParsing="false" onAction="#DepositeMoney" text="Deposite money" />
+      <CheckBox layoutX="81.0" layoutY="182.0" mnemonicParsing="false" onAction="#withdraw" text="Withdraw money" />
+      <CheckBox layoutX="83.0" layoutY="223.0" mnemonicParsing="false" onAction="#Transfer" text="Transfer money" />
+      <Button layoutX="457.0" layoutY="302.0" mnemonicParsing="false" onAction="#back1" prefHeight="26.0" prefWidth="50.0" text="Back" />
+      <CheckBox layoutX="83.0" layoutY="263.0" mnemonicParsing="false" onAction="#toView" text="View options" />
+   </children>
+</AnchorPane>
